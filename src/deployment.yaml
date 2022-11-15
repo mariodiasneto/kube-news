@@ -54,7 +54,7 @@ spec:
     spec:
       containers:
       - name: web
-        image: mariodiasdocker/kube-news:v1
+        image: mariodiasdocker/kube-news:{{TAG}}
         ports:
           - containerPort: 8080
         env:
